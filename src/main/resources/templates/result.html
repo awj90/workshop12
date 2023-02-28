@@ -11,6 +11,7 @@
       Your list of <span data-th-text="${numberRandomNum}"></span> random
       numbers
     </h1>
+    <!-- v below is each of the selected elements in the string array randNumResult, eg "1.jpg", "30.jpg"... -->
     <ul data-th-each="v: ${randNumResult}">
       <li data-th-text="${v}"></li>
       <img data-th-src="@{${'/images/' + v}}" height="300" width="300" />

@@ -40,7 +40,7 @@ public class GenerateRandController {
             throw new RandNoException();
         }
 
-        for (int x = 0; x < maxGenNo-1; x++) {
+        for (int x = 0; x < maxGenNo+1; x++) {
             imgNumbers[x] = "number" + x + ".jpg";
         }
 
